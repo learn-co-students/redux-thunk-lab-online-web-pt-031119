@@ -4,12 +4,13 @@ import { connect } from 'react-redux';
 
 class CatList extends Component {
 
+const renderList() = this.props.catPics.map(pic => <img key={pic.id} src={pic.url}>{pic}</img>)
 
   render() {
-    const { catPics } = this.props;
+
 
     <div>
-      {catPics.map(catPic => <img>{catPic}</img>)}
+
     </div>
   }
 
