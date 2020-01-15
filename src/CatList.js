@@ -8,10 +8,11 @@ renderList = () => { return this.props.catPics.map(pic => <img key={pic.id} src=
 
   render() {
 
-
+    return(
     <div>
       {this.renderList()}
     </div>
+    )
   }
 
 }
